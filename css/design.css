@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'myFont'; /*a name to be used later*/
+    src: url('../fonts/Indie_Flower/IndieFlower.ttf' ); /*URL to font*/
+}
+@font-face {
+    font-family: 'myFont1'; /*a name to be used later*/
+    src: url('../fonts/Raleway-Bold.ttf' ); /*URL to font*/
+}
+@font-face {
+    font-family: 'myFont2'; /*a name to be used later*/
+    src: url('../fonts/girls.ttf' ); /*URL to font*/
+}
+
+#nav:hover{
+    background: yellow;
+}
+
+#brand{
+    font-size: 20px;
+    font-family: monospace;
+    margin-left : 460px;
+}
+#khan:hover{
+    color: white;
+}
+
+#search{
+    padding-left:10px;
+    font-size: 20px;
+}
+#firstimg{
+    height:800px;
+    
+    
+    background-image: url( "../images/backgroundlearner.jpg");
+   
+}
+#first:hover{
+   
+    background-image: url( "../images/backgroundlearner.jpg");
+    
+}
+#btn1{
+    z-index:0;
+    text-align: center;
+    margin-left:530px;
+    border-radius: 35px;
+     height:40px;
+    width: 300px;
+    /*background:white;*/
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#btn2{
+    color: white;
+    cursor: pointer;
+    margin-left:530px;
+    border-radius: 35px;
+     height:40px;
+    width: 300px;
+   background:transparent;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid white;
+}
+
+#btn3{
+     color: white;
+    cursor: pointer;
+    background:transparent;
+    border: 1px solid white;
+    margin-left:530px;
+    border-radius: 35px;
+    height:40px;
+    width: 300px;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+#btn4{
+     border-radius: 35px;
+     height:40px;
+    width: 300px;
+     margin-left:530px;
+    margin-top:100px;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#firstimg1{
+    height:800px;
+   padding-top:1px;
+    background-image: url("../images/d.jpg");
+}
+#firstimg2{
+    height:800px;
+    padding-top:1px;
+    background-image: url("../images/noisli.png");
+}
+#firstimg3{
+    height:800px;
+    padding-top:1px;
+    background-image: url("../images/banner.png");
+}
+#head1{
+    font-family: 'myfont1';
+    /*margin-left: 400px;*/
+    text-align: center;
+    color: white;
+}
+#head2{
+    font-family: 'myfont2';
+    text-align: center;
+    /*margin-left: 330px;*/
+    font-size: 80px;
+    color: white;
+}
+#head3{
+   /* margin-left: 500px;*/
+    text-align: center;
+    color: white;
+}
+#head5{
+
+    margin-top:300px;
+    text-align:center;
+    color:white;
+}
+#head4{
+    padding-top:150px;
+    
+    text-align: center;
+}
+#head6{
+    font-family: 'myfont2';
+    text-align:center;
+    color:white;
+    padding-top:100px;
+}
+#head7{
+    text-align: center;
+}
+
+#contact{
+    padding-top:100px;
+    text-align: center;
+    color:white;
+    font-family: 'myfont1';
+     text-shadow:2px 2px 5px blue;
+}
+#img1{
+    
+    border-radius: 100px;
+    height:200px;
+    width:200px;
+}
+#head8{
+    margin-top:-190px;
+    padding-left:400px;
+    color:white;
+}
+
+#head9{
+    margin-top:-40px;
+    padding-left:400px;
+    color:white;
+}
+.anim:hover{
+   -webkit-animation: shake 1s;
+    animation: shake 1s;
+}
